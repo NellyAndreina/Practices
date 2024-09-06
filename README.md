@@ -1,2 +1,3 @@
 # Practices
-Entrenamiento de JavaScript
+* Entrenamiento de JavaScript
+## JavaScript
