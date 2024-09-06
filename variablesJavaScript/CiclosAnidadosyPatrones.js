@@ -54,7 +54,7 @@ function patronPiramide (n){
     //La función no debe retornar valor alguno, utiliza console.log() para mostrar el patrón. Asegúrate de que tu función se ejecute correctamente incluso para casos donde el número de filas o columnas sea 1.
     function lineasAlternadas(filas, columnas) {
         for (let i = 0; i < filas; i++) {
-            if (i % 2 === 0) {
+            if (i % 2 === 0) { //el numero % 2 si el residio es igual a 0 el número es par
                 console.log('*'.repeat(columnas));
             } else {
                 console.log(' '.repeat(columnas));

@@ -31,7 +31,6 @@ function contarDeDosEnDos(numero) {
 //Ejercicio
 //Crea una función llamada contarDeDosEnDos que reciba un número como parámetro. La función debe mostrar todos los números pares
 // entre 1 y el número dado.
-/* Escribe tu código aquí */
 function contarDeDosEnDos(numero) {
     let i = 2;
     while (i <= numero) {
@@ -39,11 +38,10 @@ function contarDeDosEnDos(numero) {
         i += 2;
     }
 }
-/* Fin */
 
-contarDeDosEnDos(10)
-contarDeDosEnDos(6)
-contarDeDosEnDos(14)
+//contarDeDosEnDos(10)
+//contarDeDosEnDos(6)
+//contarDeDosEnDos(14)
 
 //Ejercicio
 //El siguiente código está incompleto y por lo mismo produce un ciclo infinito. 
@@ -119,8 +117,8 @@ function introduccionAFor() {
 //Crea la función mostrarNumeros que reciba dos parámetro, inicio y fin.
 //La función debe mostrar en consola todos los números desde el inicio hasta el fin.ç
 function mostrarNumeros(inicio, fin) {
-    for (let i = inicio; i <= fin; i++) {  // Inicia el ciclo en 'inicio' y termina en 'fin'
-        console.log(i);  // Muestra el valor de 'i' en consola
+    for (let i = inicio; i <= fin; i++) { 
+        console.log(i);  
     }
 }
 
